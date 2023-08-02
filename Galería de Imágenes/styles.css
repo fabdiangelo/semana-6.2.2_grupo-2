@@ -3,9 +3,17 @@ body {
 }
 
 .image{
-    border: 5px solid green;
+    border: 5px solid rgb(123, 173, 123);
     border-radius: 10px;
     height: 400px;
+    -webkit-box-shadow: 18px 11px 26px 14px rgba(0,0,0,0.64);
+    -moz-box-shadow: 18px 11px 26px 14px rgba(0,0,0,0.64);
+    box-shadow: 18px 11px 26px 14px rgba(0,0,0,0.64);
+    width: 400px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+
 }
 
 .link-button {
@@ -22,4 +30,16 @@ h1 {
     text-align: center;
     font-size: 50px;
     color: green;
+    transition: 0.3s;
+}
+
+.link-button:hover {
+    transition: 0.3s;
+    background-color: #235dff;
+    color: white;
+    font-size: large;
+}
+p{
+    text-indent: 30px;
+    font-family: Verdana, sans-serif;
 }
