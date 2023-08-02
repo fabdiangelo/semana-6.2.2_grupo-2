@@ -6,6 +6,10 @@ body {
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
+    width: 400px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
 }
 
 .link-button {
