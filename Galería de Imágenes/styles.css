@@ -9,6 +9,11 @@ body {
     -webkit-box-shadow: 18px 11px 26px 14px rgba(0,0,0,0.64);
     -moz-box-shadow: 18px 11px 26px 14px rgba(0,0,0,0.64);
     box-shadow: 18px 11px 26px 14px rgba(0,0,0,0.64);
+    width: 400px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+
 }
 
 .link-button {
@@ -19,4 +24,8 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+}
+p{
+    text-indent: 30px;
+    font-family: Verdana, sans-serif;
 }
